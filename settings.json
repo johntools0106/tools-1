@@ -1,138 +1,173 @@
 {
-    "files.autoSave": "afterDelay",
-    "editor.inlineSuggest.showToolbar": "always",
-    "terminal.integrated.inheritEnv": false,
-    "editor.inlineSuggest.suppressSuggestions": true,
-    "cody.commandCodeLenses": true,
-    "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.mouseWheelZoom": true,
-    "editor.definitionLinkOpensInPeek": true,
-    "editor.guides.bracketPairs": true,
-    "editor.links": false,
-    "editor.mouseWheelZoom": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
-    "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
-    "cmake.configureOnOpen": true,
-    "cmake.options.statusBarVisibility": "visible",
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.completeFunctionParens": true,
-    "python.analysis.typeCheckingMode": "standard",
-    "workbench.colorTheme": "Monokai",
-    "chat.editor.fontSize": 20,
-    "chat.editor.wordWrap": "on",
-    "terminal.external.linuxExec": "",
-    "terminal.explorerKind": "both",
-    "chatgpt.lang": "cn",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.experimental.asyncTokenizationLogging": true,
-    "editor.experimentalInlineEdit.backgroundColoring": true,
-    "editor.experimentalInlineEdit.enabled": true,
-    "editor.foldingImportsByDefault": true,
-    "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
-    "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
-    "editor.inlineCompletionsAccessibilityVerbose": true,
-    "editor.renderLineHighlightOnlyWhenFocus": true,
-    "editor.smoothScrolling": true,
-    "editor.tabCompletion": "on",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "diffEditor.codeLens": true,
-    "editor.minimap.autohide": true,
-    "editor.suggest.preview": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "workbench.experimental.enableNewProfilesUI": true,
-    "workbench.editor.wrapTabs": true,
-    "workbench.settings.useSplitJSON": true,
-    "search.showLineNumbers": true,
-    "task.verboseLogging": true,
-    "remote.downloadExtensionsLocally": true,
-    "remote.tunnels.access.preventSleep": true,
-    "notebook.consolidatedRunButton": true,
-    "inlineChat.experimental.textButtons": true,
-    "merge-conflict.autoNavigateNextConflict.enabled": true,
-    "black-formatter.showNotifications": "always",
-    "code-runner.executorMap": {
-        "python": "python3 -u",
-    },
-    "indentRainbow.includedLanguages": [
-        "python",
-    ],
-    // Defining custom colors instead of default "Rainbow" for dark backgrounds.
-    "indentRainbow.colors": [
-        "rgba(255,255,64,0.07)",
-        "rgba(127,255,127,0.07)",
-        "rgba(255,127,255,0.07)",
-        "rgba(79,236,236,0.07)"
-    ],
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-    },
-    "workbench.colorCustomizations": {
-        "[Monokai]": {
-            "terminal.foreground": "#00ff62",
-            "peekViewTitleLabel.foreground": "#ff0000",
-            "peekViewEditor.background": "#200202",
-            "list.focusBackground": "#530733",
-            "editor.lineHighlightBackground": "#021a1d",
-            "editor.background": "#020d1657",
-            "sideBar.background": "#110c0757",
-            "editorGroupHeader.tabsBackground": "#3d3936",
-            "editorCursor.foreground": "#0ebb50",
-            "peekViewEditor.matchHighlightBackground": "#141f94",
-            "breadcrumb.background": "#7a7c78a6",
-            "editorLineNumber.activeForeground": "#88ff00e7",
-            "editorLineNumber.foreground": "#00c3ff5e",
-            "tab.activeBackground": "#57798d",
-            "editor.lineHighlightBorder": "#8597be",
-            "editor.foreground": "#19d429",
-            "editor.selectionBackground": "#a02ca0",
+  "files.autoSave": "afterDelay",
+  "editor.inlineSuggest.showToolbar": "always",
+  "terminal.integrated.inheritEnv": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.mouseWheelZoom": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.guides.bracketPairs": true,
+  "editor.links": false,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+  "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+  "cmake.configureOnOpen": true,
+  "cmake.options.statusBarVisibility": "visible",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "chat.editor.fontSize": 25,
+  "chat.editor.wordWrap": "on",
+  "terminal.external.linuxExec": "",
+  "terminal.explorerKind": "both",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.experimental.asyncTokenizationLogging": true,
+  "editor.foldingImportsByDefault": true,
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
+  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+  "editor.inlineCompletionsAccessibilityVerbose": true,
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.smoothScrolling": true,
+  "editor.tabCompletion": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "diffEditor.codeLens": true,
+  "editor.minimap.autohide": "mouseover",
+  "editor.suggest.preview": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.settings.useSplitJSON": true,
+  "search.showLineNumbers": true,
+  "task.verboseLogging": true,
+  "remote.downloadExtensionsLocally": true,
+  "remote.tunnels.access.preventSleep": true,
+  "notebook.consolidatedRunButton": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "code-runner.executorMap": {
+    "python": "python3 -u"
+  },
+  "indentRainbow.includedLanguages": [
+    "python"
+  ],
+  // Defining custom colors instead of default "Rainbow" for dark backgrounds.
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.07)",
+    "rgba(127,255,127,0.07)",
+    "rgba(255,127,255,0.07)",
+    "rgba(79,236,236,0.07)"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "terminal.foreground": "#00ff62",
+      "peekViewTitleLabel.foreground": "#ff0000",
+      "peekViewEditor.background": "#200202",
+      "list.focusBackground": "#530733",
+      "editor.lineHighlightBackground": "#021a1d",
+      "editor.background": "#020d1657",
+      "sideBar.background": "#110c0757",
+      "editorGroupHeader.tabsBackground": "#3d3936",
+      "editorCursor.foreground": "#0ebb50",
+      "peekViewEditor.matchHighlightBackground": "#141f94",
+      "breadcrumb.background": "#7a7c78a6",
+      "editorLineNumber.activeForeground": "#88ff00e7",
+      "editorLineNumber.foreground": "#00c3ff5e",
+      "tab.activeBackground": "#57798d",
+      "editor.lineHighlightBorder": "#4e628f",
+      "editor.foreground": "#19d429",
+      "editor.selectionBackground": "#a02ca0"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Monokai]": {
+      "functions": "#67cc67",
+      "comments": "#c5a6a0",
+      "keywords": "#e72f0f",
+      "numbers": "#00ff9d",
+      "strings": "#aad4d1",
+      "variables": "#00f7ff",
+      "textMateRules": [
+        {
+          "scope": "source.python ",
+          "settings": {
+            "foreground": "#d162c2",
+            "fontStyle": "italic bold ",
+          }
         },
-    },
-    "editor.tokenColorCustomizations": {
-        "[Monokai]": {
-            "functions": "#67cc67",
-            "comments": "#c5a6a0",
-            "keywords": "#e72f0f",
-            "numbers": "#00ff9d",
-            "strings": "#aad4d1",
-            "variables": "#002fff",
-            "textMateRules": [
-                {
-                    "scope": "source.python",
-                    "settings": {
-                        "foreground": "#ca18b2",
-                        "fontStyle": "italic bold",
-                    },
-                },
-                {
-                    "scope": "entity.name.function.python,meta.function-call.generic.python",
-                    "settings": {
-                        "foreground": "#adca29",
-                        "fontStyle": "italic bold",
-                    },
-                },
-                {
-                    "scope": "keyword.operator.arithmetic.python",
-                    "settings": {
-                        "foreground": "#1ea01e",
-                        "fontStyle": "italic bold",
-                    },
-                },
-                {
-                    "scope": "variable.parameter.function.language.python,meta.function-call.arguments.python",
-                    "settings": {
-                        "foreground": "#7287fa",
-                        "fontStyle": "italic bold",
-                    },
-                },
-            ],
+        {
+          "scope": "entity.name.namespace ",
+          "settings": {
+            "foreground": "#d6d848",
+            "fontStyle": "bold"
+          }
         },
-    },
-    "chatgpt.model": "gpt-4o-mini-2024-07-18",
-    "terminal.integrated.shellIntegration.enabled": false,
-}
+        {
+          "scope": "entity.name.type.class ",
+          "settings": {
+            "foreground": "#48df43",
+            "fontStyle": "bold"
+          }
+        },
+      ]
+    }
+  },
+  "terminal.integrated.shellIntegration.enabled": true,
+  "tabnine.experimentalAutoImports": true,
+  "marscode.codeCompletionPro": {
+    "enableCodeCompletionPro": true
+  },
+  "chat.commandCenter.enabled": false,
+  "code-runner.runInTerminal": true,
+  "window.titleBarStyle": "native",
+  "codemap.useNoDependencyCSharpMapper": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "debug.terminal.clearBeforeReusing": true,
+  "remote.defaultExtensionsIfInstalledLocally": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "editor.defaultFormatter": "kaih2o.python-resource-monitor",
+  "notebook.defaultFormatter": "littlefoxteam.vscode-python-test-adapter",
+  "workbench.colorTheme": "Monokai",
+  "editor.defaultFoldingRangeProvider": "ms-python.python",
+  "python.analysis.cacheLSPData": true,
+  "python.languageServer": "Jedi",
+  "fittencode.languagePreference.displayPreference": "zh-cn",
+  "fittencode.languagePreference.commentPreference": "zh-cn",
+  "editor.formatOnSaveMode": "file",
+  "trae.codeCompletionPro": {
+    "enableCodeCompletionPro": true,
+    "enableTabKeyboardShortcuts": true
+  },
+  "trae.chatLanguage": "cn",
+  "workbench.editor.alwaysShowEditorActions": true,
+  "workbench.editor.autoLockGroups": {
+    "default": true
+  },
+  "errorLens.scrollbarHackEnabled": true,
+  "codeium.enableCodeLens": false,
+  "workbench.editor.empty.hint": "hidden",
+  "trae.enableCodelens": {
+    "enableInlineUnitTest": false,
+    "enableInlineExplain": false,
+    "enableInlineDocumentation": false
+  },
+  "github.copilot.chat.agent.currentEditorContext.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "claudeCodeChat.thinking.intensity": "think",
+  "chat.mcp.discovery.enabled": true,
+  "bitoAI.appearance.fontSize (Match with IDE Font)": false,
+  "bitoAI.codeCompletion.enableAutoCompletion": true,
+  "bitoAI.codeCompletion.enableCommentToCode": true,
+  "editor.largeFileOptimizations": false,
+}       
